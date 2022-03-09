@@ -1,0 +1,32 @@
+.header{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo{
+        width: 70px;
+        height: auto;
+        img{
+            width: 100%;
+        }
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        margin-left: 25px;
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+    &__nav-link{
+        font-size: 18px;
+        transition: .4s;
+        &:hover{
+            color: #999;
+        }
+    }
+}
